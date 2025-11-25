@@ -6,7 +6,7 @@ This project analyzes 41,774 bat chirps from 2929 different recordings collected
 
 I received invaluable mentorship for this project from Andreas Paepcke, research scientist at Stanford University. 
 
-Myself and another student Andrew, who is working on a parallel project using this data, received an A.W. Mellon Foundation Grant of $1260 to support our work. The official title of our project under this grant is "Linguistic Analysis of Bat Vocalizations at Jasper Ridge Biological Preserve: A Machine Learning Approach."
+Myself and another student named Andrew Chen, who is working on a parallel project using this data, received an A.W. Mellon Foundation Grant of $1260 to support our work. The official title of our project under this grant is "Linguistic Analysis of Bat Vocalizations at Jasper Ridge Biological Preserve: A Machine Learning Approach."
 
 
 
