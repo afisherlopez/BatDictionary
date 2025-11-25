@@ -1,0 +1,46 @@
+[build-system]
+
+requires = ["setuptools >= 64", "cython", "wheel"]
+
+[project]
+
+name = "BatGPT"
+description = "Analyzing bat chirps to identify words/phrases and create a dictionary of bat communication."
+version = "0.0.1"
+readme  = "README.md"
+authors = [
+  {name = "Anna Fisher Lopez", email = "afishpez@stanford.edu"}
+  ]
+maintainers = [
+  {name = "Anna Fisher Lopez", email = "afishpez@stanford.edu"}
+  ]
+license = "MIT"
+
+dependencies = [
+    "requests>=2.32.5",
+    "dnspython>=2.8.0"
+    ]
+
+requires-python = ">= 3.10"
+
+[project.optional-dependencies]
+test = [
+    "pytest",
+]
+
+# The following establishes the <proj-root>/src
+# as the root of all Python packages. The
+# 'include' ensures that 'pip uninstall' removes
+# the lanmanagement subdirectory in site-packages
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["mypackage*"]
+exclude = ["mypackage.test", "mypackage.test.*"]
+
+[project.urls]
+
+Homepage = "https://github.com/afisherlopez/BatGPT.git"
+Documentation = "https://github.com/afisherlopez/BatGPT.git"
+Repository = "https://github.com/afisherlopez/BatGPT.git"
+
+
