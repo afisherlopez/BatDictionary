@@ -4,9 +4,7 @@ This project aims to identify sequences of bat chirps which occur frequently in 
 
 I analyze a dataset of 41,774 bat chirps from 2929 different recordings collected from an outdoor microphone at Jasper Ridge Biological Preserve between 01/02/2022 and 02/09/2022, and uses Graph Attention Transformers and HDBSCAN to identify clusters of acoustically similar chirp sequences. 
 
-I received invaluable mentorship for this project from Andreas Paepcke, research scientist at Stanford University. 
 
-Myself and another student named Andrew Chen, who is working on a parallel project using this data, received an A.W. Mellon Foundation Grant of $1260 to support our work. The official title of our project under this grant is "Linguistic Analysis of Bat Vocalizations at Jasper Ridge Biological Preserve: A Machine Learning Approach."
 
 
 
